@@ -18,7 +18,7 @@ class InnerDemoApplication {
 
 	@RequestMapping ("/")
 	public String getRequest() {
-			return "Welcome";
+			return "Welcome to the app deployed via EBS";
 
 	}
 }
