@@ -16,3 +16,6 @@ phases:
 artifacts:
  files:
   - target/demo-0.0.1-SNAPSHOT.jar
+  name: my-springapplication-artifact
+  discard-paths: yes
+  destination: s3://myspringappoutput/builds/
